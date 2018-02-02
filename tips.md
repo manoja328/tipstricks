@@ -37,10 +37,15 @@ hit ctrl + f5 to reload cache in any website in chrome
 http://uoa-eresearch.github.io/eresearch-cookbook/recipe/2014/11/20/conda/
 
 conda info -e
+
 conda create -n yourenvname
+
  -- conda create -n yourenvname python=x.x---
+
 source activate yourenvname
+
 source deactivate
+
 conda remove -n yourenvname --all
 
 -----------------------------
@@ -48,6 +53,7 @@ conda remove -n yourenvname --all
 aws configure
 
 aws s3 ls s3://mydatacollect/valimages/
+
 aws s3 sync . s3://mydatacollect/valimages/ --acl public-read
 
 
