@@ -55,6 +55,7 @@ aws configure
 aws s3 ls s3://mydatacollect/valimages/
 
 aws s3 sync . s3://mydatacollect/valimages/ --acl public-read
+
 aws s3 sync . s3://mydatacollect/valimages/ --acl public-read --follow-symlinks
 
 
